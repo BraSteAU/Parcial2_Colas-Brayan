@@ -46,6 +46,7 @@ public class Banco{
         this.atendido = atendido;
     }
 
+    @Override
     public String toString() {
     return "Turno: " + Id +
            " | Nombre: " + Nombre +
